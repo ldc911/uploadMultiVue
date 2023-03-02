@@ -1,0 +1,35 @@
+$blue: #29a847 !default;
+$indigo: #424242 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #29a847 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+$gray: #424242 !default;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  background-color: #e5e7e9;
+}
+
+nav {
+  border-bottom: 5px solid $green !important;
+}
+
+footer {
+  border-top: 5px solid rgba($color: #000000, $alpha: 0.5);
+}
+
+.myApp {
+  height: 100vh !important;
+}
+
+.card {
+  border-radius: 7px !important;
+  border: 1px solid rgba($color: #000000, $alpha: 0.1);
+  box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+}
