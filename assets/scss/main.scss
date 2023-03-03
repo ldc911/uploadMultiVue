@@ -33,3 +33,22 @@ footer {
   border: 1px solid rgba($color: #000000, $alpha: 0.1);
   box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
 }
+
+.single {
+  .upload-input {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 5px !important;
+    position: absolute;
+    opacity: 0;
+  }
+  .uploader-mask {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 5px !important;
+    border: 2px dashed #ccc;
+    .uploader-icon {
+      height: 35px;
+    }
+  }
+}

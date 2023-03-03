@@ -11,8 +11,7 @@
               </h3>
             </div>
             <div class="card-body">
-              <form><SingleUploader label="test here ok" /></form>
-              <input type="text" class="form-control" />
+              <form><SingleUploader /></form>
             </div>
           </div>
         </div>
