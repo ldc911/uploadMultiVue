@@ -11,7 +11,16 @@
               </h3>
             </div>
             <div class="card-body">
-              <form><SingleUploader /></form>
+              <form>
+                <SingleUploader
+                  id="single-file-upload"
+                  label="Upload single file here"
+                />
+                <MultiUploader
+                  id="multi-files-upload"
+                  label="Upload multiple files here"
+                />
+              </form>
             </div>
           </div>
         </div>
@@ -24,10 +33,11 @@
 <script>
 import FooterItemVue from '~/components/Layouts/Footer-item.vue'
 import Navbar from '~/components/Layouts/Nav-bar.vue'
+import MultiUploader from '~/components/Uploader/Multi-uploader.vue'
 import SingleUploader from '~/components/Uploader/Single-uploader.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Navbar, FooterItemVue, SingleUploader },
+  components: { Navbar, FooterItemVue, SingleUploader, MultiUploader },
 }
 </script>

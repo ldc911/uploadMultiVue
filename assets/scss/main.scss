@@ -33,8 +33,28 @@ footer {
   border: 1px solid rgba($color: #000000, $alpha: 0.1);
   box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
 }
+.validateButton {
+  background-color: $green;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+  border: none;
+}
 
-.single {
+.validateButton:hover {
+  background-color: $teal;
+}
+
+.resetButton {
+  background-color: $orange;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.resetButton:hover {
+  background-color: $yellow;
+}
+
+.single,
+.multi {
   .upload-input {
     height: 100px !important;
     width: 100px !important;
@@ -50,5 +70,8 @@ footer {
     .uploader-icon {
       height: 35px;
     }
+  }
+  .uploaded-img {
+    height: 80px !important;
   }
 }
