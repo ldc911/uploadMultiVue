@@ -1,22 +1,24 @@
 <template>
   <div class="myApp d-flex flex-column">
     <Navbar />
-    <ContentDisplay />
+    <GaleryDisplay />
     <FooterItemVue />
   </div>
 </template>
 
 <script>
+import GaleryDisplay from '../components/galery/galery-display'
 import FooterItemVue from '~/components/Layouts/footer-item'
 import Navbar from '~/components/Layouts/nav-bar'
-import ContentDisplay from '~/components/Uploader/content-display'
 
 export default {
-  name: 'IndexPage',
+  name: 'GaleryPage',
   components: {
     Navbar,
     FooterItemVue,
-    ContentDisplay,
+    GaleryDisplay,
   },
 }
 </script>
+
+<style></style>

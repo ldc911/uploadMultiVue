@@ -1,5 +1,5 @@
 <template>
-  <b-col lg="2" class="pb-2 mt-2"
+  <b-col lg="2" class="pb-2 m-2"
     ><b-button class="resetButton" size="xs" @click="handleReset"
       >Annuler</b-button
     ></b-col
@@ -10,7 +10,7 @@
 export default {
   methods: {
     handleReset() {
-      this.$emit('reset', 'reset')
+      this.$emit('reset')
     },
   },
 }

@@ -32,7 +32,9 @@ footer {
   border-radius: 7px !important;
   border: 1px solid rgba($color: #000000, $alpha: 0.1);
   box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+  color: #424242;
 }
+
 .validateButton {
   background-color: $green;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
@@ -53,7 +55,6 @@ footer {
   background-color: $yellow;
 }
 
-.single,
 .multi {
   .upload-input {
     height: 100px !important;
@@ -71,7 +72,8 @@ footer {
       height: 35px;
     }
   }
-  .uploaded-img {
-    height: 80px !important;
-  }
+}
+
+.uploaded-img {
+  height: 80px !important;
 }
