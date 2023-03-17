@@ -36,7 +36,6 @@ export default {
   mounted: async function () {
     const response = await API.get('/images/uploads')
     this.documentsToDisplay = response.data
-    console.log(response.data)
   },
 }
 </script>
