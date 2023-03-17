@@ -121,9 +121,9 @@ export default {
     this.wsConnexion.onmessage = (data) => {
       const response = JSON.parse(data.data.toString())
       this.aiResult.push({
-        fileId: response.data.fileId,
-        result: response.data.res,
-        path: response.data.path,
+        fileId: response.fileId,
+        result: response.result,
+        path: response.path,
       })
       this.selectedImgs = []
       this.isUploading = false

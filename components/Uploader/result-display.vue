@@ -33,6 +33,7 @@ export default {
   },
   methods: {
     generateResponse(data) {
+      console.log(this.aiResult)
       const response = this.aiResult.filter((element) => {
         return element.fileId === data.file.fileId
       })
